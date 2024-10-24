@@ -1,0 +1,65 @@
+body{
+  background-color: #404fed;
+  padding: 0;
+}
+
+.App{
+  background-color: transparent;
+  background-image: url('./assets/discord-background.png');
+  background-size: 800px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 99vh;
+}
+
+.nav-logo{
+  height: 25px;
+  width: 100px;
+}
+
+.nav-menu{
+  height: 25px;
+  width: 40px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  color: white;
+  font-size: 8vh;
+  font-weight: bold;
+}
+
+.desc{
+  color: white;
+  font-size: 3vh;
+}
+
+.button-area{
+  display: flex;
+  flex-direction: column;
+}
+
+.mac-button{
+  background-color: white;
+  color: black;
+  font-size: 3vh;
+  height: 60px;
+  width: 250px;
+  border: none;
+  border-radius: 50px;
+}
+
+.open-button{
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  font-size: 3vh;
+  height: 60px;
+  width: 350px;
+  border: none;
+  border-radius: 50px;
+}
